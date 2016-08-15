@@ -45,7 +45,7 @@ ABORT "Unable to find gcc cross-compiler at location: ${CROSS_COMPILE}gcc"
 
 [ "$1" ] && DEVICE=$1
 [ "$DEVICE" ] || DEVICE=ailsa_ii
-[ "$TARGET" ] || TARGET=zte
+[ "$TARGET" ] || TARGET=twrp
 
 DEFCONFIG=${TARGET}_defconfig
 DEVICE_DEFCONFIG=device_${DEVICE}
